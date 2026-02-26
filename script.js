@@ -16,8 +16,8 @@ const savedEls = {
   about: document.getElementById("#savedAbout"),
 };
 
-const noUser = document.getElementById("noSavedUser");
-const panel = document.getElementById("savedUserPanel");
+const noUser = document.getElementById("#noSavedUser");
+const panel = document.getElementById("#savedUserPanel");
 
 form.addEventListener("submit", e => {
   e.preventDefault();
