@@ -81,3 +81,5 @@ document.getElementById("clearUserBtn").onclick = () => {
 // AUTO LOAD ON REFRESH
 const saved = localStorage.getItem("registeredUser");
 if (saved) displayUser(JSON.parse(saved));
+
+// OH YES DADA MAN!!!!
